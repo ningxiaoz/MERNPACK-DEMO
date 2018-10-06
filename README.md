@@ -1,5 +1,5 @@
 # MERNPACK-DEMO
-it's a project Framework Demo combiend different technolgies. 
+it's a project Framework Demo which combiend different technolgies for React App Development. 
 The client side is bootstrapped with Create React App.
 The server side was build with Express.
 Semantic-ui is used for the UI design.
