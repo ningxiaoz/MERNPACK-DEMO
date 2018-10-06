@@ -11,9 +11,10 @@ How to use this Framework Demo for building a react project:
 
 # 1.Install envirnment
 
-You can use the following command to install this Demo
-cd client && npm install move in client folder to build client evironment.
-cd ../server && npm install move in server folder to build server encironment.
+You can use the following command to install this Demo:
+
+* `cd client && npm install move in client folder to build client evironment.
+* `cd ../server && npm install move in server folder to build server encironment.
 
 # 2.Use Okta
 
@@ -69,6 +70,7 @@ You can use all the code provided from Semantic-ui webpage.
 
 # 4.Run this Demo
 
-cd server && npm start move in server folder to start server.
-cd ../client && npm start move in client folder to start client. Runs the app in the development mode.
+* `cd server && npm start move in server folder to start server.
+* `cd ../client && npm start move in client folder to start client. Runs the app in the development mode.
+
 Open http://localhost:3000 to view it in the browser.
