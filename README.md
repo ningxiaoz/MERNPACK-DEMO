@@ -9,14 +9,14 @@ Database is builded by Mongodb.
 
 How to use this Framework Demo for building a react project:
 
-# 1.install envirnment
-————————————————————————————
+# 1.Install envirnment
+
 You can use the following command to install this Demo
 cd client && npm install move in client folder to build client evironment.
 cd ../server && npm install move in server folder to build server encironment.
 
 # 2.Use Okta
-————————————————————————————
+
 Register okta account and get domain url and client_id from okta home page. Then copy them to paste in the client side app.js You can ignore my domain url'https://dev-783322.oktapreview.com'
 
 <Router>
@@ -58,7 +58,7 @@ The project provide two ways of using okta login pages. One is default pages pro
 About signUp, You can configure it in OKTA webpage. It also provide default style and customization.
 
 # 3. Mongodb
-——————————————————
+
 You can change the url with your own mangodb url in server site app.js
 
 //u can change the url by your self
@@ -68,7 +68,7 @@ Step4: Semantic-ui
 You can use all the code provided from Semantic-ui webpage.
 
 # 4.Run this Demo
-————————————————————
+
 cd server && npm start move in server folder to start server.
 cd ../client && npm start move in client folder to start client. Runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
