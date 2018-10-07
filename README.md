@@ -1,15 +1,15 @@
 # MERNPACK-DEMO
 it's a project Framework Demo which combiend different technolgies for React App Development. 
 
-The client side is bootstrapped with Create React App.
+The client side is based on Create React App Framework.
 The server side was build with Express.
 Semantic-ui is used for the UI design.
 Usermangement with user authentication is build by OKTA.
-Database is builded by Mongodb.
+Database is chosen as MongoDB.
 
 How to use this Framework Demo for building a react project:
 
-# 1.Install envirnment
+# 1.Install Environment 
 
 You can use the following command to install this Demo:
 
@@ -18,7 +18,7 @@ You can use the following command to install this Demo:
 
 # 2.Use Okta
 
-Register okta account and get domain url and client_id from okta home page. Then copy them to paste in the client side app.js You can ignore my domain url'https://dev-783322.oktapreview.com'
+Register okta account and get domain url and client_id from okta home page. Then copy them to paste in the client side app.js. 
 
 <Router>
 
@@ -54,9 +54,9 @@ Register okta account and get domain url and client_id from okta home page. Then
         );
     }
 }
-The project provide two ways of using okta login pages. One is default pages provided by OKTA, another one is customization loginpage created by SigninWidget. You can use this okta react to find more functions.
 
-About signUp, You can configure it in OKTA webpage. It also provide default style and customization.
+The project is provided  as two ways of using okta login pages. One is default pages provided by OKTA, another one is a customerized  loginpage created by SigninWidget. You can use OKTA as a usermanagement tool.
+
 
 # 3. Mongodb
 
@@ -65,11 +65,11 @@ You can change the url with your own mangodb url in server site app.js
 //u can change the url by your self
 mongoose.connect('mongodb://localhost:27017/login-dem');
 mongoose.Promise = global.Promise;
-Step4: Semantic-ui
-You can use all the code provided from Semantic-ui webpage.
+
+# When your running the Demo, make sure the MongoDB is connected properly. 
 
 # 4.Run this Demo
-
+* Connetced to MongoDB
 * `cd server && npm start move in server folder to start server.
 * `cd ../client && npm start move in client folder to start client. Runs the app in the development mode.
 
