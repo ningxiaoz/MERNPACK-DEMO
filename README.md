@@ -1,13 +1,13 @@
 # MERNPACK-DEMO
-it's a project Framework Demo which combiend different technolgies for React App Development. 
+it's a project Framework Demo which comprises different technologies for React App Development. 
 
 The client side is based on Create React App Framework.
 The server side was build with Express.
 Semantic-ui is used for the UI design.
-Usermangement with user authentication is build by OKTA.
+User mangement and authentification Tool is build by OKTA.
 Database is chosen as MongoDB.
 
-How to use this Framework Demo for building a react project:
+# How to use this Framework Demo for building a react project:
 
 # 1.Install Environment 
 
